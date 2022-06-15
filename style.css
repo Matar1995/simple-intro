@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@700&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  box-sizing:border-box;
+  text-transform: capitalize;
+  font-family: 'Spline Sans Mono', monospace;
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Spline Sans Mono', monospace;
+
+
+  @apply bg-primary cursor-pointer;
+}
